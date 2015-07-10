@@ -1,6 +1,6 @@
 nav {
   height: 50px;
-  width: 800px;
+  width: 60%;
   background-color: #FFB4B0;
   margin: 0 auto;
   border: 2px solid black;
@@ -24,7 +24,7 @@ nav {
 }
 
 .container {
-  width: 800px;
+  width: 60%;
   display: flex;
   margin: 0 auto;
 }
