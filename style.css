@@ -1,0 +1,40 @@
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #FFB4B0;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.links {
+  display: inline;
+  padding-right: 5px;
+  font-size: 10pt;
+  font-family: Arial;
+}
+
+.link-spacer {
+  border-right: 2px solid black;
+}
+
+.links a {
+  text-decoration: none;
+  color: blue;
+}
+
+.panel {
+  width: 20%;
+  height: 300px;
+  border: 2px solid black;
+  margin: 10px 10px 0 0;
+  background-color: #4DD7FA;
+}
+
+.content {
+  width: 76%;
+  height: 300px;
+  border: 2px solid black;
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  background-color: #FEFAC0;
+}
