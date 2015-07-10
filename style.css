@@ -1,6 +1,6 @@
 nav {
   height: 50px;
-  width: 100%;
+  width: 800px;
   background-color: #FFB4B0;
   margin: 0 auto;
   border: 2px solid black;
@@ -24,8 +24,9 @@ nav {
 }
 
 .container {
-  width: 100%;
+  width: 800px;
   display: flex;
+  margin: 0 auto;
 }
 
 .panel {
