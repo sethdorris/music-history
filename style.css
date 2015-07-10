@@ -4,6 +4,7 @@ nav {
   background-color: #FFB4B0;
   margin: 0 auto;
   border: 2px solid black;
+  overflow: scroll;
 }
 
 .links {
@@ -22,12 +23,18 @@ nav {
   color: blue;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+}
+
 .panel {
-  width: 20%;
+  width: 25%;
   height: 300px;
   border: 2px solid black;
   margin: 10px 10px 0 0;
   background-color: #4DD7FA;
+  overflow: scroll;
 }
 
 .content {
@@ -37,4 +44,56 @@ nav {
   margin: 10px 0 0 10px;
   display: inline-block;
   background-color: #FEFAC0;
+  overflow: scroll;
+}
+
+.content li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.content h4 {
+  font-size: 18px;
+  color: #785616;
+  margin: 20px 0 10px 20px;
+  padding: 0;
+}
+
+.info-spacer {
+  border-right: 2px solid black;
+}
+
+.content ul {
+  margin: 0;
+  padding: 0 0 20px;
+}
+
+label {
+  font-family: Tahoma;
+  margin: 10px 0 0 10px;
+}
+
+input[type="range"] {
+  margin: 10px;
+}
+
+select {
+  margin: 5px 0 10px 10px;
+}
+
+.filter-button {
+  display: block;
+  margin: 0 auto;
+}
+
+.label-left {
+  margin: 0 5px 0 5px;
+}
+
+.label-right {
+  margin: 0 0 0 5px;
+}
+
+table {
+  margin-left: 7px;
 }
