@@ -44,6 +44,6 @@ for (var i = 0; i < songs.length; i++) {
 
     mainContent.innerHTML += "<div>";
 	mainContent.innerHTML += "<h4 class=\"first-song-name\">" + songs[i] + "</h4>";
-	mainContent.innerHTML += "<span class=\"info-spacer\">" + artist[i] + "</span>" + "<span class=\"info-spacer\">" + album[i] + "</span>" + "<span class=\"genre\">" + "Rock" + "</span>";
+	mainContent.innerHTML += "<span class=\"info-spacer\">" + "By: " +artist[i] + "</span>" + "<span class=\"info-spacer\">" + album[i] + "</span>" + "<span class=\"genre\">" + "Rock" + "</span>";
 	mainContent.innerHTML += "</div>";
 }
