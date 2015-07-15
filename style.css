@@ -1,3 +1,5 @@
+
+
 nav {
   height: 50px;
   width: 60%;
@@ -5,6 +7,15 @@ nav {
   margin: 0 auto;
   border: 2px solid black;
   overflow: scroll;
+}
+
+#site-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header {
+  flex: 1 100%;
 }
 
 .links {
@@ -30,25 +41,25 @@ nav {
 }
 
 .panel {
-  width: 25%;
   height: 300px;
   border: 2px solid black;
   margin: 10px 10px 0 0;
   background-color: #4DD7FA;
   overflow: scroll;
+  flex-grow: 2;
 }
 
 .content {
-  width: 76%;
   height: 300px;
   border: 2px solid black;
   margin: 10px 0 0 10px;
   display: inline-block;
   background-color: #FEFAC0;
   overflow: scroll;
+  flex-grow: 8;
 }
 
-.content li {
+.artist-album-genre {
   display: inline;
   padding: 0 20px;
 }
@@ -56,17 +67,17 @@ nav {
 .content h4 {
   font-size: 18px;
   color: #785616;
-  margin: 20px 0 10px 20px;
+  margin: 20px 0 0px 20px;
   padding: 0;
 }
 
 .info-spacer {
   border-right: 2px solid black;
+  padding: 0 20px;
 }
 
-.content ul {
-  margin: 0;
-  padding: 0 0 20px;
+.genre {
+  padding-left: 20px;
 }
 
 label {
