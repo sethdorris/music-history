@@ -109,3 +109,12 @@ select {
 table {
   margin-left: 7px;
 }
+
+.first-song-name:nth-child(2n+0) {
+  background-color: seashell;
+}
+
+.first-song-name:nth-child(2n+1) {
+  background-color: mintcream;
+}
+
