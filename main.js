@@ -47,5 +47,3 @@ for (var i = 0; i < songs.length; i++) {
 	mainContent.innerHTML += "<span class=\"info-spacer\">" + artist[i] + "</span>" + "<span class=\"info-spacer\">" + album[i] + "</span>" + "<span class=\"genre\">" + "Rock" + "</span>";
 	mainContent.innerHTML += "</div>";
 }
-
-console.log(songs);
